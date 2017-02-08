@@ -18,7 +18,6 @@ let person2 = {
   age: 23,
   friends: ['danny', 'william', 'john'],
   helloMyFriend: function () {
-    let _this = this
     this.friends.forEach((friend) => { // use arrow function
       // this.name in this function scope will return bar
       console.log(this.name +' said: Hi '+friend)
